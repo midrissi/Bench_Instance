@@ -1,0 +1,1 @@
+﻿exports.pad = function pad(nb, length){	var str = nb + '';		while(str.length < length){		str = '0' + str;	}		return str;}exports.path = function(){	debugger;	return getFolder('path');};

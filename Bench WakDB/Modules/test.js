@@ -1,0 +1,1 @@
+﻿var TestDC	= ds.Test;function Test(file){	this._file = file;};Test.prototype.start = function(nbUsers, isSSJS) {	isSSJS 	= typeof isSSJS === 'undefined'? true: isSSJS;	nbUsers = typeof nbUsers === 'undefined'? 1: nbUsers;	this.nbUsers	= nbUsers;	this.isSSJS		= isSSJS;	this._start		= new Date();};module.exports = Test;

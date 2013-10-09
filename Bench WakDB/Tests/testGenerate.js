@@ -1,0 +1,1 @@
+﻿require('dgUtils').close({	nbUsers: 10,	config:{		companies: {			nb: 1000,			employees: {				nb: 1000			}		}	}});
